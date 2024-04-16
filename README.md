@@ -6,6 +6,8 @@ I collaborated with Brian Mathenge, Adade Sedom Percy, and Pauline Andege Omondi
 
 Forked the repo from: <https://github.com/olatunji-weber/Vividarts_studio.git>
 
+And here is my personal repository for the project: <https://github.com/olatunji-weber/MineVividarts_studio?tab=readme-ov-file>
+
 Containerized the application using the official Python runtime as the base image, created a function to handle the uploading of images selected via the input form to an S3 bucket on AWS.
 
 And also create a Lambda Function to process the uploaded image by resizing it with a python function invoked by the image upload trigger on an S3 bucket which was created using Terraform.
