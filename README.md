@@ -10,4 +10,4 @@ Containerized the application using the official Python runtime as the base imag
 
 And also create a Lambda Function to process the uploaded image by resizing it with a python function invoked by the image upload trigger on an S3 bucket which was created using Terraform.
 
-See Documentation to understand the project: <https://github.com/olatunji-weber/MineVividarts_studio/blob/master/Azubi%20Project%202%20Vividart%20Studio.pdf>
+See Documentation to understand the project: <https://github.com/olatunji-weber/MineVividarts_studio/blob/master/Azubi%20Project%202%20Vividart%20Studio%20-%20Beanstalk2.pdf>
