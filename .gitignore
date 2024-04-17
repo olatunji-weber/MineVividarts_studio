@@ -1,6 +1,11 @@
 # Local .terraform directories
 **/.terraform/*
 
+# Images and Trial scripts
+outputimage.jpg
+demo_image.jpeg
+trial.py
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
