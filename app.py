@@ -2,9 +2,14 @@ from flask import Flask, render_template, request
 import os
 import boto3
 
-s3 = boto3.client('s3', aws_access_key_id=AWS_ACCESS_KEY_ID,
-                  aws_secret_access_key=AWS_SECRET_ACCESS_KEY,
-                  region_name=REGION_NAME)
+# Access GitHub secrets
+aws_access_key_id = os.environ.get('AWS_ACCESS_KEY_ID')
+aws_secret_access_key = os.environ.get('AWS_SECRET_ACCESS_KEY')
+region_name = os.environ.get('REGION_NAME')
+
+s3 = boto3.client('s3', aws_access_key_id=aws_access_key_id,
+                  aws_secret_access_key=aws_secret_access_key,
+                  region_name=region_name)
 
 app = Flask(__name__)
 
